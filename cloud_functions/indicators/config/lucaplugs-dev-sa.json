@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lucaplugs-dev",
+  "private_key_id": "de53e2689f3d7aba9a91f81dbd98f77f42511fab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC3UX7vv7jrcwNp\nu2tILcU/WObykLqM9smaFk2fgclQgNcc9M+uxc85Q1d7QKvN/3aG+MdI2mZ4heGb\nbFiXsEBeCO9NKt7jnGeSy1LucPdOVw7hhEZo++3IAKRu28qsF7L784m71eBi6coq\nIODr+KQkRLpQNKL3Whn7z7aNaXzGMclMF86+0ht0quL6u6W6rIkQroEpt7MrY+Ax\nhPWhBJpLaXFb0m7+l44r26G1FDwjIG39uk3pWLLOXSYl8g+2kEfg+ujOFTHHSAuW\nBhfXUPXtK9iMQhj0UvpwKev4AD2CQ3ApyyXPbjpUc8dTzXTwXPULk1hxboSrITvm\nc3pi+wTFAgMBAAECggEAHJPp0/pGxlMRuc6Wij6zEeMMGHho0fI5uiRhSXfJfcai\nwkgv2tvKKEUlQs5Gz5Wppp+V1velIy4hM5ePtWYBQtI7Fq6TkgF0lrUiYpAzHYAD\njoiOaW4MwtxxcI7MaPObhXI74I/BAT/XslBEgBos4d03plVDqofd+8bae0UcnHuB\nKf0dj5IP7Tj57gnVvKv8xItlyJ+XBp6R5Sa76p3+aetVqq4hCEVfM3ljrz97pVWW\nFbrIsa1bJsdURbD6S+swgVRx4CzOw7wnZxkkwOTFo8dG1GD7iXCRP5kZLia+c5m8\n/DfJ8tAeb6GjsOHMg1K7CFdASxCVI7eUv/vK3+XkqQKBgQDxQX4tn/JrqGKE/02D\nmjQTo6SDtIwjyazAHPozLZR97eRGJWf0iSCU0qnKun38ZGBilOBdxTKabw40Ku+C\nqSc5vcsU9boSOAI91le6oae9vblUg+aSxu9HRyjbSyA0xs4DM3LkGYhXb7+nkCOJ\nUoMH7/XUpOIQgZgNfGpPWfVQgwKBgQDChY5/pNJecnjdkGzz8ThCfyBIXHZ9Vdkw\nqIe52Pi2hMygFBfDg+vA2Ti+Qa+30KB0KlZPlJqSv26bl2sfdq4EuDxtFCzYJmkn\n47da3rmLGAVinXf5cjGRg0BKLNGNfioOUHsU9c8AwECCyykGbtiuXxhlScukg9LW\nZCRkW1/DFwKBgDuIWcaQbZW7W3ROO6Z56tfdzb7iUqKSJZrSi7sNSFM63NWibWCe\nZffTdCqeknAxpMcuzZ7WBoKtXOfqoGexrghFmVN2v4+3WnY/6i4XrfjYVF9SnRcj\nF/CS0rYqd6wOUs/fZj57PnW1Eaobm2lLfyH6SMNMXKyODiNlzCYAoNRZAoGAa4Xr\nyL7Q0ggwqzhkIUubL5aZv6XskUdc8LqXm7FFeY5albnFkPtg2463AOPKP68AonWs\nk/yunKNYfoTqX8/4TP+R1zGpwCkrQzNqbL5kjXBPub0VTjtDDw4gAWBYzP+KO7Nc\n9a8SJ3Ydsq6eFMI839YM5CAwgtWjO4LLYvXnLy0CgYBNJzWpqKKMTzGEU5qVB6kW\nTVqSd5ZqWQLtVfq99/gFb/17ySNiUgQmclsBSR7Y0QlbG8hWq6M5hEwdQcEOvQX2\nAXfQ8REVCTQbENP7mzZwEBIBCjWi0evu0E9jtB447vBbm6cz2l0o5V23hyFkIUCY\nO3E27ZFOka3YOjq/2rcVKw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-x43aw@lucaplugs-dev.iam.gserviceaccount.com",
+  "client_id": "100001520811062960262",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-x43aw%40lucaplugs-dev.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
