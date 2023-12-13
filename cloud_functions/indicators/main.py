@@ -8,8 +8,8 @@ import os
 import requests
 
 app = Flask("internal")
-cred = credentials.ApplicationDefault()
-#cred = credentials.Certificate('config/lucaplugs-dev-sa.json')
+#cred = credentials.ApplicationDefault()
+cred = credentials.Certificate('config/lucaplugs-dev-sa.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
@@ -79,14 +79,20 @@ def update_ipc():
                     doc_ref = db.collection("ipc").document(str(year))
                     list_months = ["Diciembre", "Noviembre", "Octubre", "Septiembre", "Agosto", "Julio", "Junio", "Mayo", "Abril", "Marzo", "Febrero", "Enero"]
                     
-                    doc_ref.set({
-                        
-                    })
+                    url = f'https://us-central1-luca-app-dev.cloudfunctions.net/core_v1_operation_transactional/insert/ipc?id_document={str(year)}'
+                    response = requests.post(url)
+                
+
                     index_initial = 12 - len(list_ipc_for_month)
                     for i in range(index_initial, len(list_ipc_for_month) + index_initial):
-                        doc_ref.update({
-                        list_months[i]: list_ipc_for_month[i - index_initial]["valor"]
-                        })
+                        url = f'https://us-central1-luca-app-dev.cloudfunctions.net/core_v1_operation_transactional/update/{str(year)}?collection=ipc'
+                        # doc_ref.update({ 
+                        # list_months[i]: list_ipc_for_month[i - index_initial]["valor"]
+                        # })
+                        data = {
+                            list_months[i]:list_ipc_for_month[i - index_initial]["valor"]
+                        }
+                        response = requests.post(url, json=data)
                 else:
                     print("Error al realizar la solicitud!!!!!!!!!!!!!", response.status_code)
                     return {"res": "Problemas al conectarse con la Api de mindicador.cl"}
