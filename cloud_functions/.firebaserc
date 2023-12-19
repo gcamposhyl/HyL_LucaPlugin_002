@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "lucaplugs-cert"
-  }
+    "default": "lucaplugs-cert",
+    "lucaplugs-dev": "lucaplugs-dev"
+  },
+  "targets": {},
+  "etags": {}
 }

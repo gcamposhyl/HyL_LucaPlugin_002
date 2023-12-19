@@ -5,3 +5,6 @@
 .env
 /venv
 venv
+
+lucaplugs-dev-sa.json
+lucaplugs-sa.json
